@@ -1,0 +1,30 @@
+{
+  "name": "urturnbot",
+  "version": "1.0.0",
+  "description": "A bot for UrTurn",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottricity/urturnbot.git"
+  },
+  "author": "Jonathan Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottricity/urturnbot/issues"
+  },
+  "homepage": "https://github.com/scottricity/urturnbot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "slash-create": "^5.10.0",
+    "path": "^0.12.7",
+    "fs-extra": "^10.1.0",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
